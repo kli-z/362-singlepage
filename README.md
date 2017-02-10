@@ -1,3 +1,4 @@
+This is a single-page site about security. When there is a security vulnerability, the site will send an email to users registered through the site.
 
 Project Description
 
