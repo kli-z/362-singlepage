@@ -34,7 +34,8 @@ p {
 }
 
 h2 {
-
+  color: #00cccc;
+  font-size: 1.266em;
 }
 
 form {
@@ -80,6 +81,12 @@ header {
   text-align: center;
 }
 
+footer {
+  color: #eee;
+  font-style: italic;
+  padding: 0.273em;
+}
+
 #IT {
   color: #b00090;
 }
@@ -90,7 +97,9 @@ header {
 }
 
 /* Comma delimited generalizations */
-
+h2, main {
+  font-family: Ubuntu, Verdana, sans-serif;
+}
 
 /* Media Queries */
 @media (min-width: 37.5em) { /* 600px @ 1em:16px */
