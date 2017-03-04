@@ -28,26 +28,39 @@ p {
 form {
   background-color: #31001D;
   border: .1em solid #AD8D9C;
-  color: #ffeeff;
-  font-family: 'Droid Sans Mono', 'Courier New', monospace;
-  font-size: 1em;
   line-height: 1.2em;
   margin: 1em .3em 1em .3em;
   padding: .2em;
 }
 
+input {
+  background-color: transparent;
+  border: none;
+}
+
 a {
   color: #dec316;
-  text-decoration: none;
+/*text-decoration: none;  Keeping distinction for color blindness. */
 }
 
 #sh-prefix {
   color: #ccbbcc;
 }
 
+.indentable {
+  
+}
+
 #IT {
   color: #ff0000;
   font-weight: 600;
+}
+
+/* Comma delimited generalizations */
+input,form {
+  color: #ffeeff;
+  font-family: 'Droid Sans Mono', 'Courier New', monospace;
+  font-size: 1em;
 }
 
 
