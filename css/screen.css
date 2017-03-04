@@ -21,6 +21,8 @@ html {
 
 p {
   color: #eee;
+  line-height: /*???*/
+  text-indent: 1.3em;
 }
 
 form {
@@ -31,7 +33,11 @@ form {
   padding: .2em;
 }
 
-strong {
+#sh-prefix {
+
+}
+
+#IT {
   color: #ff0000;
   font-weight: 600;
 }
