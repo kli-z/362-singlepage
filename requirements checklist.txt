@@ -8,7 +8,7 @@
 
 +   Organized, readable source that is hand-written and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
 
--   HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
++   HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
 
 +   Only structural, semantic uses of HTML elements and attributes. Absolutely no table markup, break tags, or any other use of HTML to achieve a particular page layout.
 
