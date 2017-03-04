@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js"></script>
     <title>SecurITy Newsletter</title>
   </head>
   <body>
@@ -16,7 +18,7 @@
       <p>This site aims to assist users such as yourself in taking the proper actions to keep you informed on recent security vulnerabilities. All we ask is an email address. With it, default behavior in handling it will be to send you emails when popular enough sites or services are attacked; however, we also allow you to receive daily emails in a newsletter fashion, or to list sites for which you would like to be notified. For more information on how your email address will be handled, please visit our <a href="#privacy">privacy policy</a> statement. Alternatively, you may proceed directly to <a href="#signup">signup</a>.</p>
       <h2>Signup</h2>
       <h3>Register by entering an email on the below form.</h3>
-      <form id="signup">
+      <form id="signup" onsubmit="checkValidity()">
         <ul>
           <li>you@securITy:~$ <strong id="usersh">man emailadd | more</strong></li>
           <li>&nbsp;</li>
