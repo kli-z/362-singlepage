@@ -1,5 +1,10 @@
 /* Stylesheet for SecurITy Newsletter site. */
 
+/* Link to color theme: https://color.adobe.com/create/color-wheel/?base=2&rule=Triad&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.49215686274509807,0.0492156862745098,0.3113645458182677,0.87,0.7660467412769673,0.08699999999999998,0.19215686274509805,0,0.11372549019607843,0.08699999999999998,0.8116885069814441,0.87,0.024607843137254923,0.4573376017071729,0.49215686274509807&swatchOrder=0,1,2,3,4
+   The shade of purple used is to match the default Cinnamon Linux, Ubuntu terminal.
+   
+*/
+
 /* Reset
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -11,11 +16,19 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
   background-color: #222;
-  font-family: monospace;
+  font-family: sans-serif;
 }
 
 p {
   color: #eee;
+}
+
+form {
+  background-color: #31001D;
+  border: .1em solid #AD8D9C;
+  font-family: 'Droid Sans Mono', 'Courier New', monospace;
+  margin: 1em .3em 1em .3em;
+  padding: .2em;
 }
 
 strong {
