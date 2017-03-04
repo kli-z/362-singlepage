@@ -61,8 +61,14 @@ a {
   font-weight: 600;
 }
 
+/* JS only classes */
+.blinking {
+/*text-decoration: blink;  No browser currently supports this.*/
+}
+
 /* Comma delimited generalizations */
 
 
-
 /* Media Queries */
+
+
