@@ -43,8 +43,8 @@ a {
 /*text-decoration: none;  Keeping distinction for color blindness. */
 }
 
-#sh-prefix {
-  color: #ccbbcc;
+#usersh { 
+  color: #ffeeff;
 }
 
 .indentable {
@@ -56,9 +56,14 @@ a {
   font-weight: 600;
 }
 
+em {
+  font-style: italic;
+  font-weight: 600;
+}
+
 /* Comma delimited generalizations */
 input,form {
-  color: #ffeeff;
+  color: #ccbbcc;
   font-family: 'Droid Sans Mono', 'Courier New', monospace;
   font-size: 1em;
 }
