@@ -3,6 +3,12 @@
 = In progress
 ? Rule requires an optional(?) element be present
 
+-   Modular Scale
+
++   Color Palette
+
+-   Gridline
+
 +   Project must be built with only one valid well-formed HTML file, one valid CSS file, and one JavaScript file.
 
 +   All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF)

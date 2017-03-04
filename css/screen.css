@@ -4,11 +4,14 @@
    The shade of purple used is to match the default Cinnamon Linux, Ubuntu terminal.
 */
 
+/* Major Second (1.125, 8:9) modular scale http://www.modularscale.com/?1&em&1.125&web&text
+
 /* Reset
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,main,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
 
 /* Styles will be listed in order of scope, from wide to narrow. */
@@ -18,9 +21,20 @@ html {
   font-family: sans-serif;
 }
 
+main {
+  border: 0.135em solid #06757d;
+  padding: 0.555em;
+}
+
 p {
   color: #eee;
-  text-indent: 1.3em;
+  line-height: 1.125em;
+  padding: 1em 0 0 0;
+  text-indent: 1.266em;
+}
+
+h2 {
+
 }
 
 form {
@@ -56,9 +70,18 @@ a {
   padding-bottom: 1em;
 }
 
-#IT {
-  color: #ff0000;
+header {
+  border: 0.243em outset #06757d;
+  color: #16cfde;
+  font-family: 'Tibetan Machine Uni', Constantia, serif;
+  font-size: 1.602em;
   font-weight: 600;
+  padding: 1em 0 1em 0;
+  text-align: center;
+}
+
+#IT {
+  color: #b00090;
 }
 
 /* JS only classes */
@@ -70,5 +93,13 @@ a {
 
 
 /* Media Queries */
+@media (min-width: 37.5em) { /* 600px @ 1em:16px */
+  header {
+    font-size: 2.566em;
+  }
+  main {
+    padding: 1em;
+  }
+}
 
 
