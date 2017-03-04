@@ -28,13 +28,21 @@ p {
 form {
   background-color: #31001D;
   border: .1em solid #AD8D9C;
+  color: #ffeeff;
   font-family: 'Droid Sans Mono', 'Courier New', monospace;
+  font-size: 1em;
+  line-height: 1.2em;
   margin: 1em .3em 1em .3em;
   padding: .2em;
 }
 
-#sh-prefix {
+a {
+  color: #dec316;
+  text-decoration: none;
+}
 
+#sh-prefix {
+  color: #ccbbcc;
 }
 
 #IT {
